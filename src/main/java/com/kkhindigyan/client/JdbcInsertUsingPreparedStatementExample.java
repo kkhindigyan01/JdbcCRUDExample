@@ -2,7 +2,6 @@ package com.kkhindigyan.client;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.Statement;
 import java.time.LocalDate;
 
 import com.kkhindigyan.util.DBUtil;
