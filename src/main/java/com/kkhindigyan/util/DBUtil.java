@@ -15,6 +15,7 @@ public class DBUtil {
 	
 	static {
 		try {
+			//1.Register the JDBC driver
 			Class.forName(DB_DRIVER_CLASS);
 			connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
 		} catch (ClassNotFoundException | SQLException e) {
